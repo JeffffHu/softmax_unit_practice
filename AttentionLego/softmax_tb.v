@@ -3,6 +3,8 @@
 `timescale 1ns/1ns
 `include "softmax.v"
 
+// Test if Desktop vscode can edit
+
 module testbench ();
 reg clk, rst, en, we, cme;
 reg [11:0] addr;
